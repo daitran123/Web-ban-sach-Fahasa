@@ -1,0 +1,32 @@
+:root {
+  --pink__color--: #fcddef;
+  --darkblue__color--: #171b26;
+  --gray__color--: #9fa7aa;
+  --red__color--: #c12530;
+  --white__color--: #fff;
+  --text__color--: #333;
+  --border__color--: #cdcfd0;
+  --hover__color--: #e6e9e9;
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+}
+.grid__full-width {
+  width: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
